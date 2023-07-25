@@ -1,6 +1,5 @@
-// Dashboard.js
 import React, { useState } from 'react';
-import jsonData from '../jsondata.json'; // Update the file path here
+import jsonData from '../jsondata.json';
 import Filter from './Filter';
 import Chart from './Chart';
 
@@ -21,7 +20,6 @@ const Dashboard = () => {
     <div className="dashboard">
       <Filter data={jsonData} onFilterChange={handleFilterChange} />
       <Chart data={filteredData} />
-      {/* Additional components can be added here to display other visualizations */}
     </div>
   );
 };
