@@ -1,0 +1,74 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.filter-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container h2 {
+  margin-bottom: 10px;
+}
+
+.filter {
+  margin-bottom: 15px;
+}
+
+.filter label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.filter select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.chart-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust the chart style based on your chosen chart library */
+/* Example style for D3.js bar chart */
+.chart {
+  width: 100%;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: #3498db;
+}
